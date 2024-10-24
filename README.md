@@ -26,40 +26,52 @@ Ensure Python, Docker, and any required cloud tools (such as Google Cloud SDK or
 Data Loading and Preprocessing: Load the dataset, handle missing values, and split the data into training and test sets.
 Model Building and Training: Use a Linear Regression model to fit the training data and generate predictions.
 
-# Evaluation: Measure performance using metrics like Mean Squared Error (MSE) and R² to understand how well the model fits the data.
+# Evaluation: 
+Measure performance using metrics like Mean Squared Error (MSE) and R² to understand how well the model fits the data.
 
-# Dockerization: Package the application into a Docker container to ensure consistent environments across platforms.
+# Dockerization: 
+Package the application into a Docker container to ensure consistent environments across platforms.
 Artifact Registry Management: Store Docker images and trained models in a cloud-based artifact registry for easy access.
 Deployment: Deploy the model to cloud platforms or a web application to provide predictions through an API or user interface.
 
 Installation Requirements
 
-# Python Libraries: Ensure all necessary libraries (NumPy, Pandas, Matplotlib, Scikit-learn, etc.) are installed.
+# Python Libraries: 
+Ensure all necessary libraries (NumPy, Pandas, Matplotlib, Scikit-learn, etc.) are installed.
 
-# Docker: Used to containerize the application, ensuring it runs consistently across different environments.
+# Docker: 
+Used to containerize the application, ensuring it runs consistently across different environments.
 
-# Artifact Registry: A cloud-based registry (e.g., Google Artifact Registry, AWS ECR, or Docker Hub) stores container images and model artifacts.
+# Artifact Registry: 
+A cloud-based registry (e.g., Google Artifact Registry, AWS ECR, or Docker Hub) stores container images and model artifacts.
 Cloud Tools: Tools like Google Cloud SDK or AWS CLI are required to interact with cloud services for deployment.
 Dockerization and Artifact Management
-#  Containerization: Package the application in a Docker container to ensure that the same environment runs across all machines and platforms.
+#  Containerization: 
+Package the application in a Docker container to ensure that the same environment runs across all machines and platforms.
 Building the Docker Image: Create a local image and test it to verify that the application works correctly within the container.
 Artifact Storage: Push the Docker image to a cloud-based artifact registry to manage versions and facilitate collaboration.
 # Model Storage: Save trained models as artifacts for future use, ensuring reproducibility and scalability.
 Deployment Steps
 
-# Local Testing: Run the application locally within the Docker container to ensure all components function properly.
+# Local Testing: 
+Run the application locally within the Docker container to ensure all components function properly.
 
-# Cloud Deployment: Push the Docker container to a cloud platform (e.g., Google Cloud Run, AWS Lambda, or Azure Functions).
+# Cloud Deployment: 
+Push the Docker container to a cloud platform (e.g., Google Cloud Run, AWS Lambda, or Azure Functions).
 
-# API Integration: Expose the model as an API endpoint, allowing other systems to make predictions by sending HTTP requests.
+# API Integration: 
+Expose the model as an API endpoint, allowing other systems to make predictions by sending HTTP requests.
 
-# Continuous Integration/Deployment (CI/CD): Set up a CI/CD pipeline to automate testing and deployment, ensuring smooth updates and version management.
+# Continuous Integration/Deployment (CI/CD): 
+Set up a CI/CD pipeline to automate testing and deployment, ensuring smooth updates and version management.
 
 # Results and Visualizations
 
-# Performance Metrics: Evaluate the model’s accuracy using metrics like Mean Squared Error (MSE) and R². These metrics provide insight into how well the model predicts the target variable.
+# Performance Metrics: 
+Evaluate the model’s accuracy using metrics like Mean Squared Error (MSE) and R². These metrics provide insight into how well the model predicts the target variable.
 
-# Visualizing Results: Use scatter plots to compare actual vs. predicted values and histograms to analyze residual distributions. This helps identify patterns and assess the model’s effectiveness.
+# Visualizing Results: 
+Use scatter plots to compare actual vs. predicted values and histograms to analyze residual distributions. This helps identify patterns and assess the model’s effectiveness.
 
 # Future Improvements
 Advanced Models: Experiment with more complex models (e.g., Polynomial Regression or Random Forest) to improve accuracy.
